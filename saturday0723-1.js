@@ -10,10 +10,11 @@ let students = [
  ]
  
  function getStudentsNames(studentsArray) {
- 
+    let studentName = []
      for (let i=0;i<studentsArray.length;i++) {
-      return students[i].name
+     studentName.push(studentsArray[i].name)
      }
+     return studentName;
  }
  
  
